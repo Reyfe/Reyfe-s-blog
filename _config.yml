@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: HyG
-brief-intro: Front-end Dev Engineer
-baseurl: "/Reyfe-s-blog" # the subpath of your site, e.g. /blog
+title: Reyfe's Blog
+brief-intro: Big data
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://reyfe.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
@@ -28,7 +28,7 @@ description_footer: 迷途小码农
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
+duoshuo_shortname: #yubo's blog
 disqus_shortname: 
 
 # statistic analysis 统计代码
@@ -56,5 +56,5 @@ tag_dir: tag/
 excerpt_separator: "\n\n\n\n"
 
 # paginate
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 6
